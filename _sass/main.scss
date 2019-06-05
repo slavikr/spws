@@ -1,0 +1,162 @@
+$first-color: #fff;
+$second-color: #404040;
+$third-color: #f8f8f8;
+$primary-font: 'Dosis', sans-serif;
+
+body {
+  font-family: $primary-font !important;
+}
+
+header {
+  margin: 1em 0;
+  border-bottom: 1px solid $second-color;
+  .navbar {
+    padding: 1.5em 0;
+  }
+
+  .bg-light {
+    background-color: white !important;
+  }
+
+  .nav-link {
+    font-size: .8em;
+    color: $second-color !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.2em;
+    color: $second-color !important;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+
+  .logo {
+    width: 1.2em;
+    margin-right: .4em;
+  }
+} /* header end*/
+
+.main-area {
+  margin: 3em 0;
+}
+
+.box {
+  background-color: $third-color;
+  border: none;
+  border-radius: 0;
+  margin: .5em 0;
+
+  /*&:hover {
+    transition: transform 0.2s ease-in-out 0s;
+    transform: translateX(0%) translateY(-100%) translateZ(0px); 
+  }*/
+  img {
+    padding: 4em;
+  }
+}
+
+@mixin transform($property){
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+.p-title {
+  a {
+    color: $second-color;
+  }
+  padding-bottom: 2em;
+}
+
+/** Portfolio Page **/
+
+.tech {
+  background-color: $third-color;
+  padding: .5em;
+  text-transform: uppercase;
+  font-size: .77em;
+  border-radius: 2px;
+  letter-spacing: .1em;
+}
+
+.info {
+  background-color: $third-color;
+  padding: .5em;
+  font-size: .9em;
+  border-radius: 2px;
+  letter-spacing: .1em;
+  margin: 1em 0;
+
+  a {
+    text-decoration: underline;
+    color: $first-color;
+  }
+}
+
+.site_url {
+  background-color: $third-color;
+  padding: .5em;
+  font-size: .9em;
+  border-radius: 2px;
+  letter-spacing: .1em;
+  margin: 1em 0;
+  text-decoration: underline;
+  color: $second-color;  
+}
+
+.four_o_four {
+    margin: 10em  3em;
+    text-align: center;
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+}
+
+.blog_list {
+  padding: 0;
+  list-style-type: none;
+  color: $second-color;
+  
+  span {
+    color: #777;
+  } 
+
+  li {
+    text-transform: uppercase;
+    font-size: .8em;
+    letter-spacing: .05em;
+
+    a {
+      color: $second-color;
+    }
+  }
+}
+
+.post {
+  margin: 3em 0;
+}
+
+.post-title {
+  font-weight: 900;
+  letter-spacing: .03em;
+}
+
+/** kramdown **/
+
+.task-list {
+  list-style-type: none;
+
+  .task-list-item-checkbox {
+    margin-right: .5em;
+  }
+}
+
+ul {
+  list-style-type: none; 
+}

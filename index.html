@@ -1,0 +1,17 @@
+---
+layout: default
+title: "S."
+---
+
+<div class="row main-area">
+  {% for project in site.projects %}
+  <div class="col-md-3 text-center">
+    <div class="box">
+     <a href="{{ project.url | relative_url }}"><img class="img-fluid" src="{{ project.logo | relative_url }}"></a>
+    </div>
+    <div class="p-title">
+      <a href="{{ project.url | relative_url }}">{{ project.title }}</a> 
+    </div>
+  </div>
+  {% endfor %}
+</div>

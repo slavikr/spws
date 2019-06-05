@@ -1,0 +1,18 @@
+---
+layout: page
+---
+
+<div class="row">
+    <div class="col-md-8 col-sm-12 offset-md-2 text-center">
+      <ul class="blog_list">
+        {% for post in site.posts %}
+          <li>
+              <span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url | relative_url }}">{{ post.title}}</a>
+          </li>
+        {% endfor %}
+      </ul>
+      <p>
+        In this blog i'll keep you updated on stuff that is going on at this website.
+      </p>
+    </div>
+</div>

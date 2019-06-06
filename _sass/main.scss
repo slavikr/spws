@@ -48,20 +48,9 @@ header {
   border-radius: 0;
   margin: .5em 0;
 
-  /*&:hover {
-    transition: transform 0.2s ease-in-out 0s;
-    transform: translateX(0%) translateY(-100%) translateZ(0px); 
-  }*/
   img {
     padding: 4em;
   }
-}
-
-@mixin transform($property){
-  -webkit-transform: $property;
-  -ms-transform: $property;
-  transform: $property;
-  transition: transform 0.2s ease-in-out 0s;
 }
 
 .p-title {
@@ -105,6 +94,12 @@ header {
   margin: 1em 0;
   text-decoration: underline;
   color: $second-color;  
+}
+
+@media (max-width: 576px) { 
+  .scrsht {
+    margin: 1em 0;
+  }
 }
 
 .four_o_four {

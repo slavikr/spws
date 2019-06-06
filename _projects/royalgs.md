@@ -22,6 +22,6 @@ site_url: "http://royalgs.nl"
 		<a class="site_url" href="{{ page.site_url }}" target="_blank">{{ page.title }}</a>
 	</div>
 	<div class="col-md-8">
-		<img class="img-fluid" src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+		{% include project_image.md %}
 	</div>
 </div>

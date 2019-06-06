@@ -1,0 +1,1 @@
+<img class="img-fluid scrsht" src="{{ page.image | relative_url }}" alt="{{ page.title }}">

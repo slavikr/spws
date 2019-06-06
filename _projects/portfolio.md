@@ -7,7 +7,7 @@ technologies:
  - Bootstrap
  - Sass
 logo: "/assets/images/s1.png"
-image: "/assets/images/s1.png"
+image: "/assets/images/swps.png"
 site_url: ""
 ---
 
@@ -20,6 +20,6 @@ site_url: ""
 		<a class="site_url" href="{{ page.site_url }}" target="_blank">{{ page.title }}</a>
 	</div>
 	<div class="col-md-8">
-		<img class="img-fluid" src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+		{% include project_image.md %}
 	</div>
 </div>

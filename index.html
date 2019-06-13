@@ -7,10 +7,10 @@ title: "S."
   {% for project in site.projects %}
   <div class="col-md-3 text-center">
     <div class="box">
-     <a href="{{ project.url | relative_url }}"><img class="img-fluid" src="{{ project.logo | relative_url }}" alt="{{ project.title }}"></a>
+     <a href="{{ project.url | relative_url }}"><img class="img-fluid zoom" src="{{ project.logo | relative_url }}" alt="{{ project.title }}"></a>
     </div>
     <div class="p-title">
-      <a href="{{ project.url | relative_url }}">{{ project.title }}</a> 
+      <a class="fancy-link" href="{{ project.url | relative_url }}">{{ project.title }}</a> 
     </div>
   </div>
   {% endfor %}

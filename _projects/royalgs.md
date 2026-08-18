@@ -4,9 +4,9 @@ title: "Royal GS"
 permalink: "royal-gs"
 technologies:
  - Wordpress
- - Foundation
+ - Oxygen builder
 logo: "/assets/images/rgs.png"
-image: "/assets/images/royalgs_img.png"
+image: "/assets/images/royalgs_img.webp"
 site_url: "http://royalgs.nl"
 ---
 

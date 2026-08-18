@@ -3,8 +3,8 @@ email: your-email@example.com
 author: "assets/images/s1.png"
 description: >- # this means to ignore newlines until "baseurl:"
   A Personal blog and portfolio, where i'll share interests, hobbies, stories as well projects i've worked on.
-baseurl: "/spws" # the subpath of your site, e.g. /blog
-url: "https://slavikr.github.io/spws" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sdot.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 #github_username:  jekyll
 collections:
   projects:
